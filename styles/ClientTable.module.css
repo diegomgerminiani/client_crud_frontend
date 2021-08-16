@@ -1,0 +1,11 @@
+.table{
+    min-width: 650px;
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+
+}

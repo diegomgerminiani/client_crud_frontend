@@ -1,0 +1,32 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.4);
+    padding: 2rem 5rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding-bottom: 1rem;
+
+}
+.form > div{
+    padding-bottom: 1rem;
+}
+.form .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 0;
+}
+.form .buttons > button{
+    margin: 0 1rem;
+}
